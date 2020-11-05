@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated simpleWeb -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="simpleWeb.presentation.SimpleWebModelWizardID"
+            name="%_UI_SimpleWebModelWizard_label"
+            class="simpleWeb.presentation.SimpleWebModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/SimpleWebModelFile.gif">
+         <description>%_UI_SimpleWebModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated simpleWeb -->
+      <editor
+            id="simpleWeb.presentation.SimpleWebEditorID"
+            name="%_UI_SimpleWebEditor_label"
+            icon="icons/full/obj16/SimpleWebModelFile.gif"
+            extensions="simpleweb"
+            class="simpleWeb.presentation.SimpleWebEditor"
+            contributorClass="simpleWeb.presentation.SimpleWebActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>

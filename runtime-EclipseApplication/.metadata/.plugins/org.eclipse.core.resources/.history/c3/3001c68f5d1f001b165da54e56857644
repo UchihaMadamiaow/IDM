@@ -1,0 +1,17 @@
+[comment encoding = UTF-8 /]
+[**
+ * The documentation of the module generate.
+ */]
+[module generate('http://www.example.org/simpleWeb')]
+
+
+[**
+ * The documentation of the template generateElement.
+ * @param aPage
+ */]
+[template public generateElement(aPage : Page)]
+[comment @main/]
+[file ('idm/website/'+aPage.name+'.html', false, 'UTF-8')]
+
+[/file]
+[/template]

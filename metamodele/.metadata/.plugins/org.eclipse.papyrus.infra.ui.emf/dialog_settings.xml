@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.papyrus.infra.ui.emf.customizationManager">
+	</section>
+	<section name="org.eclipse.papyrus.infra.ui.emf.providers.EMFGraphicalContentProvider_history__platform:/resource/idm-tp1/idm-tp1.uml:uml:Type:type">
+		<section name="History">
+			<list key="PreviousSelection">
+				<item value="platform:/resource/idm-tp1/idm-tp1.uml#_-dGRUAe4EeuLIZAeW8VQHA"/>
+				<item value="platform:/resource/idm-tp1/idm-tp1.uml#_2GTA4AS3EeuP8-U3fqIVYQ"/>
+				<item value="platform:/resource/idm-tp1/idm-tp1.uml#_gjQLoAS2EeuP8-U3fqIVYQ"/>
+				<item value="platform:/resource/idm-tp1/idm-tp1.uml#_m_XTcAS2EeuP8-U3fqIVYQ"/>
+				<item value="platform:/resource/idm-tp1/idm-tp1.uml#_Tf70YAS4EeuP8-U3fqIVYQ"/>
+			</list>
+		</section>
+	</section>
+</section>

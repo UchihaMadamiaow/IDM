@@ -1,0 +1,54 @@
+#
+
+pluginName = simpleWeb Edit Support
+providerName = www.example.org
+
+_UI_CreateChild_text = {0}
+_UI_CreateChild_text2 = {1} {0}
+_UI_CreateChild_text3 = {1}
+_UI_CreateChild_tooltip = Create New {0} Under {1} Feature
+_UI_CreateChild_description = Create a new child of type {0} for the {1} feature of the selected {2}.
+_UI_CreateSibling_description = Create a new sibling of type {0} for the selected {2}, under the {1} feature of their parent.
+
+_UI_PropertyDescriptor_description = The {0} of the {1}
+
+_UI_Paragraphe_type = Paragraphe
+_UI_Button_type = Button
+_UI_Texte_type = Texte
+_UI_Section_type = Section
+_UI_Image_type = Image
+_UI_Lien_type = Lien
+_UI_Unknown_type = Object
+
+_UI_Unknown_datatype= Value
+
+_UI_Paragraphe_texte_feature = Texte
+_UI_Section_paragraphe_feature = Paragraphe
+_UI_Section_image_feature = Image
+_UI_Section_lien_feature = Lien
+_UI_Section_button_feature = Button
+_UI_Unknown_feature = Unspecified
+
+_UI_SiteWeb_type = Site Web
+_UI_SiteWeb_section_feature = Section
+_UI_Text_type = Text
+_UI_Page_type = Page
+_UI_LienExterne_type = Lien Externe
+_UI_Paragraphe_text_feature = Text
+_UI_Paragraphe_name_feature = Name
+_UI_Lien_name_feature = Name
+_UI_Lien_page_feature = Page
+_UI_Lien_paragraphe_feature = Paragraphe
+_UI_Text_name_feature = Name
+_UI_Section_name_feature = Name
+_UI_Section_lienexterne_feature = Lienexterne
+_UI_Section_section_feature = Section
+_UI_Image_name_feature = Name
+_UI_Button_paragraphe_feature = Paragraphe
+_UI_Button_name_feature = Name
+_UI_Button_page_feature = Page
+_UI_Page_section_feature = Section
+_UI_Page_name_feature = Name
+_UI_SiteWeb_name_feature = Name
+_UI_SiteWeb_page_feature = Page
+_UI_LienExterne_name_feature = Name

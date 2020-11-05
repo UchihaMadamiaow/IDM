@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simpleWeb:SiteWeb xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:simpleWeb="http://www.example.org/simpleWeb">
+  <page name="FirstPage">
+    <section name="Section1">
+      <paragraphe name="Paragraphe1">
+        <text name="Text1"/>
+      </paragraphe>
+      <image name="Image1"/>
+      <button name="Button1"/>
+      <lien name="Lien1"/>
+      <lienexterne name="LienExterne1"/>
+    </section>
+  </page>
+  <page name="SecondPage"/>
+</simpleWeb:SiteWeb>

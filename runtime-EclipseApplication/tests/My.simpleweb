@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simpleWeb:SiteWeb xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:simpleWeb="http://www.example.org/simpleWeb">
+  <page name="FirstPage">
+    <section name="Section1">
+      <paragraphe name="Paragraphe1">
+        <text name="Text1" content="It is the FirstPage"/>
+      </paragraphe>
+    </section>
+    <section name="Section2">
+      <button name="Button1"/>
+    </section>
+    <section name="Section3">
+      <lien name="Lien1"/>
+      <lienexterne name="LienExterne1" url="https://www.google.com/"/>
+    </section>
+    <section name="Section4">
+      <image name="image1" src="https://www.google.com/search?q=acceleo&amp;safe=strict&amp;sxsrf=ALeKk01sGrdTNEb2fi1NfVjeJUERntzDxA:1604583405956&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ved=2ahUKEwjYo7L_wuvsAhWQzoUKHRWSBVoQ_AUoAXoECCwQAw&amp;biw=1280&amp;bih=567#imgrc=bs7hLI6EZiJmRM"/>
+    </section>
+  </page>
+</simpleWeb:SiteWeb>

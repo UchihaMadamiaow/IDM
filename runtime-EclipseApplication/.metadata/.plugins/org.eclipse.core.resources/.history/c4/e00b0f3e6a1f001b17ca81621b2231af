@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html/>
+<head/>
+    <meta charset = "UTF-8">
+    <title>FirstPage</title>
+<head>
+
+
+<body/>
+		<p> Paragraphe1
+			Text1
+		</p>
+
+
+		<a href="http://">LienExterne1</a>
+
+		<a href="http://">Lien1</a>
+	
+		<button>Button1</button>
+	
+		<img src="" />
+		<p>Image1</p>
+	
+
+<body>
+
+<html>

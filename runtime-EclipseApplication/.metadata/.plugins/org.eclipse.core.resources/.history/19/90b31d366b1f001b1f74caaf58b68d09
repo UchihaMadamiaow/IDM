@@ -1,0 +1,59 @@
+[comment encoding = UTF-8 /]
+[**
+ * The documentation of the module generate.
+ */]
+[module generate('http://www.example.org/simpleWeb')]
+
+
+[**
+ * The documentation of the template generateElement.
+ * @param aPage
+ */]
+[template public generateElement(aPage : Page)]
+[comment @main/]
+[file ('idm/website/'+aPage.name+'.html', false, 'UTF-8')]
+<!DOCTYPE html>
+<html/>
+<head/>
+    <meta charset = "UTF-8">
+    <title>[aPage.name/]</title>
+<head>
+
+
+<body/>
+[for(s:Section|aPage.section) separator('\n')]
+	<div>
+	[for(p:Paragraphe|s.paragraphe) separator('\n')]
+		<p> [p.name/]
+		[for(t:Text|p.text)]
+			[t.name/]
+		[/for]
+		</p>
+
+	[/for]
+
+	[for(le:LienExterne|s.lienexterne) separator('\n')]
+		<a href="http://">[le.name/]</a>
+	[/for]
+
+		[for(l:Lien|s.lien) separator('\n')]
+		<a href="http://">[l.name/]</a>
+	[/for]
+	
+	[for(b:Button|s.button) separator('\n')]
+		<button>[b.name/]</button>
+	[/for]
+	
+	[for(i:Image|s.image) separator('\n')]
+		<img src="" />
+		<p>[i.name/]</p>
+	[/for]
+
+	</div>	
+[/for]
+
+<body>
+
+<html>
+[/file]
+[/template]
